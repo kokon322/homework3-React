@@ -3,6 +3,7 @@ export default function User (props){
     return(
         <div>
             {user.id} - {user.name} - {user.email}
+            <hr/>
         </div>
     )
 }

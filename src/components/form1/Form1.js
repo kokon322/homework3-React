@@ -11,7 +11,9 @@ class Form1 extends Component {
         let {user} = this.state;
         return (
             <div>
+               <p>First form</p>
                 <input type="number" max='10' min='1' onChange={this.changeInput}/>
+                <hr/>
                 {
                     user.map(value => (<User user={value} key={value.id}/>))
                 }
